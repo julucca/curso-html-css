@@ -9,8 +9,8 @@
 <p>Algumas adaptações foram feitas no projeto original com a finalidade de usar a abordagem mobile-first.</p>
 
 <div align="center">
-	<img width=178px src="./assets/images/git-portfolio.png">
-    <img width=700px src="./assets/images/git-portfolio-desktop.png">
+	<img width=153px src="./assets/images/git-portfolio.png">
+    <img width=600px src="./assets/images/git-portfolio-desktop.png">
 </div><br>
 
 <h2>:computer: Tecnologias utilizadas</h2>
