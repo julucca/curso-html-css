@@ -1,0 +1,32 @@
+.content {
+    max-width: 500px;
+}
+
+.content__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content__title strong {
+    color: var(--blue);
+}
+
+@media screen and (min-width: 765px) {
+    .content {
+        align-self: flex-end;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .content {
+        max-width: 585px;
+    }
+
+    .content__title {
+        font-size: 2.25rem;
+        line-height: 3.5rem;
+        margin-bottom: 2.25rem;
+    }
+}

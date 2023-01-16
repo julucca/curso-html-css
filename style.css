@@ -1,0 +1,53 @@
+@import url("./assets/css/links.css");
+@import url("./assets/css/image.css");
+@import url("./assets/css/content.css");
+
+:root {
+    --black: #0D0D0D;
+    --white: #F6F6F6;
+    --blue: #7ab0d1;
+    --hover: #009dff;
+
+    --font-highlights: 'Krona One', sans-serif;
+    --font-main: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: var(--font-main);
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+h1, a {
+    font-family: var(--font-highlights);
+}
+
+@media screen and (min-width: 765px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-inline: 3rem;
+        row-gap: 2.5rem;
+        column-gap: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+}

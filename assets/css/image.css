@@ -1,0 +1,10 @@
+.image {
+    width: 40vw;
+}
+
+@media screen and (min-width: 765px) {
+    .image {
+        grid-area: 1/2/3/3;
+        max-width: 488px;
+    }
+}

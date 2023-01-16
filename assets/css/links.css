@@ -1,0 +1,42 @@
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.links__button {
+    color: var(--black);
+    background-color: var(--blue);
+    text-decoration: none;
+    width: 210px;
+    padding-block: .75rem;
+    border-radius: 1rem;
+    font-size: .85rem;
+}
+
+.links__button:hover {
+    background-color: var(--hover);
+    color: var(--white);
+    transition: 1000ms;
+}
+
+@media screen and (min-width: 765px) {
+    
+    .links {
+        align-self: flex-start;
+        justify-self: left;
+    }
+
+    .links__button {
+        width: 19vw;
+        max-width: 210px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .links__button {
+        width: 21.5vw;
+        max-width: 280px;
+    }
+}
