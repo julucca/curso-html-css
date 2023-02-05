@@ -2,6 +2,11 @@
     width: 40vw;
 }
 
+.image:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 765px) {
     .image {
         grid-area: 1/2/3/3;

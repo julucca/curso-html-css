@@ -7,7 +7,7 @@
     --black: #0D0D0D;
     --white: #F6F6F6;
     --blue: #7ab0d1;
-    --hover: #009dff;
+    --hover: #272727;
 
     --font-secondary: 'Krona One', sans-serif;
     --font-main: 'Montserrat', sans-serif;
@@ -33,7 +33,7 @@ main {
     margin-inline: 7vw;
 }
 
-h1, a {
+h1, h2 {
     font-family: var(--font-secondary);
 }
 
