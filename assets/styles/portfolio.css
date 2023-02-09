@@ -1,0 +1,48 @@
+.portfolio__header {
+    padding-inline: 7vw;
+}
+
+.portfolio {
+    margin-inline: auto;
+    padding: 3vh 7vw;
+    min-height: 70vh;
+}
+
+.portfolio__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.list__item {
+    flex-grow: 1;
+}
+
+.item__image img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 299px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.item__image img:hover {
+    opacity: 60%;
+}
+
+@media screen and (min-width: 765px) {
+    .portfolio {
+        padding-block: 9vh;
+    }
+
+    .list__item {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .list__item {
+        width: 21vw;
+    }
+}

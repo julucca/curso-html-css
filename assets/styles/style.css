@@ -1,42 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-@import url("./assets/css/header.css");
-@import url("./assets/css/image.css");
-@import url("./assets/css/content.css");
-@import url("./assets/css/footer.css");
+@import url("./header.css");
+@import url("./image.css");
+@import url("./content.css");
+@import url("./footer.css");
+@import url("./portfolio.css");
 
 :root {
-    --black: #0D0D0D;
-    --white: #F6F6F6;
-    --blue: #7ab0d1;
-    --hover: #272727;
+    --color-primary: #0D0D0D;
+    --color-secondary: #F6F6F6;
+    --color-tertiary: #7ab0d1;
+    --color-hover: #272727;
 
-    --font-secondary: 'Krona One', sans-serif;
-    --font-main: 'Montserrat', sans-serif;
+    --font-primary: 'Krona One', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: var(--black);
-    color: var(--white);
-    font-family: var(--font-main);
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-secondary);
     font-size: 1rem;
     line-height: 1.75rem;
     text-align: center;
     box-sizing: border-box;
 }
 
-main {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    min-height: 78vh;
-    padding-block: 6rem 2rem;
+    min-height: 62vh;
+    padding-block: 6vh;
 }
 
 h1, h2 {
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
 }
 
 a, a:active {
@@ -53,9 +54,11 @@ a, a:active {
 
 @media screen and (min-width: 765px) {
 
-    main {
+    .main {
         flex-direction: row-reverse;
         justify-content: space-between;
+        align-items: start;
+        padding-block: 18vh 9vh;
     }
 }
 
