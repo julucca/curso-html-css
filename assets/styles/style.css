@@ -150,7 +150,7 @@ footer {
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: start;
-        padding-block: 18vh 9vh;
+        padding-block: 12vh 9vh;
     }
 
     .content {
