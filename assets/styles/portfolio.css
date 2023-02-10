@@ -24,14 +24,14 @@
     border-radius: 1rem;
     height: 299px;
     object-fit: cover;
-    object-position: top;
+    object-position: top;  
 }
 
 .item__image img:hover {
     opacity: 60%;
 }
 
-@media screen and (min-width: 765px) {
+@media (min-width: 765px) {
     .portfolio {
         padding-block: 9vh;
     }
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     .list__item {
         width: 21vw;
     }

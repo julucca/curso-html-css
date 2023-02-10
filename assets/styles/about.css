@@ -1,0 +1,39 @@
+.about__title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.about__subtitle {
+    color: var(--color-tertiary);
+    font-family: var(--font-secondary);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.about__text {
+    margin-bottom: 2rem;
+}
+
+.about__links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (min-width: 765px) {
+
+    .about__links {
+        justify-content: left;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about__title {
+        font-size: 2.25rem;
+        margin-bottom: .5rem;
+    }
+
+    .about__subtitle {
+        font-size: 1.5rem;   
+    }
+}
