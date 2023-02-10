@@ -16,9 +16,9 @@ Algumas adaptações foram feitas no [projeto original](https://www.figma.com/fi
 Os breakpoints utilizados para o desenvolvimento do site foram 765px e 1024px.
 
 <div align="center">
-	<img width=153px src="./assets/images/git-portfolio.png">
+	<img width=162px src="./assets/images/git-portfolio.png">
 	<img width=289px src="./assets/images/git-portfolio-tablet.png">
-    <img width=600px src="./assets/images/git-portfolio-desktop.png">
+    <img width=460px src="./assets/images/git-portfolio-desktop.png">
 </div><br>
 
 ## 🖥️ Acesso ao projeto
@@ -35,4 +35,4 @@ Os breakpoints utilizados para o desenvolvimento do site foram 765px e 1024px.
 
 <hr>
 
-Feito com 💙 por [Juliana Lucca](https://www.linkedin.com/in/julianalucca/)
+Desenvolvido com 💙 por [Juliana Lucca](https://www.linkedin.com/in/julianalucca/)
